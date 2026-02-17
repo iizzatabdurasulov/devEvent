@@ -5,6 +5,7 @@ import {
   getEventsById,
   updateEvent,
   deleteEvent,
+  bookEvent,
 } from "../controllers/event.controller";
 
 const router = express.Router();
@@ -23,5 +24,8 @@ router.put("/events/:id", updateEvent);
 
 // DELETE event
 router.delete("/events/:id", deleteEvent);
+
+// BOOK event
+router.post("/events/:id/book", bookEvent);
 
 export default router;

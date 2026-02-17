@@ -23,4 +23,7 @@ export interface IEvent extends Document {
   agenda: IAgendaItem[];
   aboutOrganizer: string;
   tags: string[];
+  bookedSpots: number
+    bookedEmails: string[]; 
+
 }
