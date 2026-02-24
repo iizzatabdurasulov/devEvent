@@ -11,10 +11,10 @@ export const events: Omit<IEvent, keyof mongoose.Document>[] = [
     date: "28th October 2025",
     time: "9:30 AM – 5:00 PM",
     images: [
-      "/images/event1.jpg",
-      "/images/event2.jpg",
-      "/images/event3.jpg",
-      "/images/event4.jpg",
+      "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&h=600&fit=crop&auto=format",
     ],
     desc: "GitHub's two-day developer event celebrating innovation, collaboration, and the boundless potential of AI-powered development.",
     overview:
@@ -61,10 +61,10 @@ export const events: Omit<IEvent, keyof mongoose.Document>[] = [
     date: "13th June 2025",
     time: "9:00 AM – 6:00 PM",
     images: [
-      "/images/event5.jpg",
-      "/images/event6.jpg",
-      "/images/event7.jpg",
-      "/images/event8.jpg",
+      "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1591115765373-5207764f72e7?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&h=600&fit=crop&auto=format",
     ],
     desc: "The biggest React conference in the world, gathering top React developers and library authors for two days of learning.",
     overview:
@@ -117,10 +117,10 @@ export const events: Omit<IEvent, keyof mongoose.Document>[] = [
     date: "5th September 2025",
     time: "10:00 AM – 5:30 PM",
     images: [
-      "/images/event9.jpg",
-      "/images/event10.jpg",
-      "/images/event11.jpg",
-      "/images/event12.jpg",
+      "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=800&h=600&fit=crop&auto=format",
     ],
     desc: "A global conference dedicated to Node.js, backend development, and the evolving server-side JavaScript ecosystem.",
     overview:
@@ -172,10 +172,10 @@ export const events: Omit<IEvent, keyof mongoose.Document>[] = [
     date: "22nd October 2025",
     time: "8:30 AM – 6:00 PM",
     images: [
-      "/images/event13.jpg",
-      "/images/event14.jpg",
-      "/images/event15.jpg",
-      "/images/event16.jpg",
+      "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?w=800&h=600&fit=crop&auto=format",
     ],
     desc: "Europe's premier AI and Machine Learning conference, connecting researchers, engineers, and business leaders shaping the future of intelligent systems.",
     overview:
@@ -233,10 +233,10 @@ export const events: Omit<IEvent, keyof mongoose.Document>[] = [
     date: "15th November 2025",
     time: "9:00 AM – 5:00 PM",
     images: [
-      "/images/event17.jpg",
-      "/images/event18.jpg",
-      "/images/event19.jpg",
-      "/images/event20.jpg",
+      "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1629904853716-f0bc54eea481?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800&h=600&fit=crop&auto=format",
     ],
     desc: "O'zbekistonning birinchi DevOps konferensiyasi — CI/CD, bulutli infratuzilma va DevSecOps mavzularida.",
     overview:
@@ -281,10 +281,10 @@ export const events: Omit<IEvent, keyof mongoose.Document>[] = [
     date: "10th September 2025",
     time: "9:00 AM – 5:30 PM",
     images: [
-      "/images/event21.jpg",
-      "/images/event22.jpg",
-      "/images/event23.jpg",
-      "/images/event24.jpg",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1573164713988-8665fc963095?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&h=600&fit=crop&auto=format",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop&auto=format",
     ],
     desc: "The official GraphQL Foundation conference for developers building APIs with GraphQL.",
     overview:
